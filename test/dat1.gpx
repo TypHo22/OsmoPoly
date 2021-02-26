@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Graphhopper version cbc621ee18fdc03d37eafcfedfc9b364842768b7" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2021-02-09T18:39:22Z</time></metadata>
+<trk><name>GraphHopper Track</name><trkseg>
+<trkpt lat="48.0" lon="11.0"><ele>521.77</ele><time>2021-02-09T18:39:22Z</time></trkpt>
+<trkpt lat="48.0" lon="11.1"><ele>522.52</ele></trkpt>
+<trkpt lat="48.0" lon="11.2"><ele>523.0</ele><time>2021-02-09T18:39:58Z</time></trkpt>
+<trkpt lat="48.0" lon="11.3"><ele>522.88</ele></trkpt>
+<trkpt lat="48.0" lon="11.4"><ele>523.74</ele></trkpt>
+<trkpt lat="48.0" lon="11.5"><ele>525.15</ele></trkpt>
+<trkpt lat="48.0" lon="11.6"><ele>525.24</ele></trkpt>
+<trkpt lat="48.0" lon="11.7"><ele>526.85</ele><time>2021-02-09T18:41:37Z</time></trkpt>
+<trkpt lat="48.0" lon="11.8"><ele>524.64</ele><time>2021-02-09T18:41:57Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Graphhopper version 0.13.0" version="1.1" xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1">
+<metadata><copyright author="OpenStreetMap contributors"/><link href="http://graphhopper.com"><text>GraphHopper GPX</text></link><time>2019-10-03T15:52:22Z</time></metadata>
+<wpt lat="47.865974" lon="12.012983"> <name>Harthauser Straße</name></wpt>
+<wpt lat="47.864948" lon="12.028052"> <name>arrive at destination</name></wpt>
+<rte>
+<rtept lat="47.865974" lon="12.012983"><desc>continue onto Harthauser Straße</desc><extensions><gh:distance>1.8</gh:distance><gh:time>254</gh:time><gh:direction>SE</gh:direction><gh:azimuth>118.18</gh:azimuth><gh:sign>0</gh:sign></extensions></rtept>
+<rtept lat="47.865966" lon="12.013005"><desc>turn slight left onto Harthauser Straße</desc><extensions><gh:distance>1141.3</gh:distance><gh:time>194950</gh:time><gh:direction>E</gh:direction><gh:azimuth>86.22</gh:azimuth><gh:sign>-1</gh:sign></extensions></rtept>
+<rtept lat="47.864995" lon="12.027995"><desc>keep right onto Harthauser Straße</desc><extensions><gh:distance>6.7</gh:distance><gh:time>863</gh:time><gh:direction>SE</gh:direction><gh:azimuth>140.49</gh:azimuth><gh:sign>7</gh:sign></extensions></rtept>
+<rtept lat="47.864948" lon="12.028052"><extensions><gh:distance>0.0</gh:distance><gh:time>0</gh:time><gh:sign>4</gh:sign></extensions></rtept>
+</rte>
+<trk><name>GraphHopper Track</name><trkseg>
+<trkpt lat="47.05" lon="12.05"><ele>492.2</ele><time>2019-10-03T15:52:22Z</time></trkpt>
+<trkpt lat="47.1" lon="12.10"><ele>492.2</ele><time>2019-10-03T15:52:23Z</time></trkpt>
+<trkpt lat="47.15" lon="12.15"><ele>493.2</ele></trkpt>
+<trkpt lat="47.2" lon="12.20"><ele>493.4</ele></trkpt>
+<trkpt lat="47.25" lon="12.25"><ele>493.8</ele></trkpt>
+<trkpt lat="47.3" lon="12.30"><ele>493.88</ele></trkpt>
+<trkpt lat="47.35" lon="12.35"><ele>495.8</ele></trkpt>
+<trkpt lat="47.4" lon="12.40"><ele>496.2</ele></trkpt>
+<trkpt lat="47.45" lon="12.45"><ele>497.0</ele></trkpt>
+<trkpt lat="47.50" lon="12.50"><ele>498.2</ele></trkpt>
+<trkpt lat="47.55" lon="12.55"><ele>499.4</ele></trkpt>
+<trkpt lat="47.6" lon="12.60"><ele>499.4</ele></trkpt>
+<trkpt lat="47.65" lon="12.65"><ele>499.28</ele></trkpt>
+<trkpt lat="47.7" lon="12.70"><ele>498.4</ele></trkpt>
+<trkpt lat="47.75" lon="12.75"><ele>496.71</ele></trkpt>
+<trkpt lat="47.8" lon="12.80"><ele>501.4</ele><time>2019-10-03T15:55:37Z</time></trkpt>
+<trkpt lat="47.85" lon="12.85"><ele>500.86</ele><time>2019-10-03T15:55:38Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>
