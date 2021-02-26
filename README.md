@@ -10,3 +10,14 @@ around a given route. The route is specified by a .gpx-File from www.graphhopper
 
 Further details in the pdf
 
+Build on Linux:
+sudo apt-get install gnuplot gnuplot 
+
+In OsmoPoly Folder:
+mkdir build
+cd build 
+cmake ..
+make 
+
+Build on Windows:
+not tested
