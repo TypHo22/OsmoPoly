@@ -7,6 +7,8 @@ Often it is needed to extract a specific area really big .osm-files like they ca
 https://download.geofabrik.de/index.html
 The program „OsmoPoly“ offers the possibility to calculate the geocoordinates of a polygon
 around a given route. The route is specified by a .gpx-File from www.graphhopper.com
+Creating Extraction Polygons from OpenStreetmap files is not supported yet. Also a proper UI must be provided for that. 
+Don't know, maybe I switch on Qt for that.
 
 Further details in the pdf
 
