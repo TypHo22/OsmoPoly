@@ -1,6 +1,5 @@
 #include "modelGPX.h"
 ///STL
-#include <filesystem>
 #include <iostream>
 #include <fstream>
 modelGPX::modelGPX(std::string fileName) : _fileName(fileName),_hull(nullptr)

@@ -19,7 +19,7 @@ project(OsmoPoly C CXX)
 
 find_package (Threads REQUIRED)
 
-include_directories(matplotlib-cpp)
+include_directories(sciplot-master)
 
 add_subdirectory(src/xml)
 add_subdirectory(src/geodesic)

@@ -129,16 +129,18 @@ void hull::visualize()
 
   //create plots
   //geoPlot
-  sciplot::plot geoPlot;
-  geoPlot.draw(geoxPath,geoyPath).title("path");
-  geoPlot.draw(geoxHull,geoyHull).title("hull");
+
+  sciplot::Plot geoPlot;
+  geoPlot.drawCurve(geoxPath,geoyPath);
+  geoPlot.drawCurve(geoxPath,geoyPath);
+  geoPlot.drawCurve(geoxHull,geoyHull);
   geoPlot.xlabel("longitute");
   geoPlot.ylabel("latitude");
   geoPlot.show();
   //xyPlot
-  sciplot::plot xyPlot;
-  xyPlot.draw(xPath,yPath).title("path");
-  xyPlot.draw(xHull,yHull).title("hhull");
+  sciplot::Plot xyPlot;
+  xyPlot.drawCurve(xPath,yPath);
+  xyPlot.drawCurve(xHull,yHull);
   xyPlot.xlabel("x");
   xyPlot.ylabel("y");
   xyPlot.show();
