@@ -22,4 +22,5 @@ cmake ..
 make 
 
 Build on Windows:
-not tested
+will consider a different plotting library for that. 
+
