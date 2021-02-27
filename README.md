@@ -13,7 +13,7 @@ Don't know, maybe I switch on Qt for that.
 Further details in the pdf
 
 Build on Linux:
-sudo apt-get install gnuplot gnuplot 
+sudo apt-get install gnuplot  
 
 In OsmoPoly Folder:
 mkdir build
