@@ -38,6 +38,7 @@ public:
   double getExtractionSize() const;
   void setExtractionSize(double value);
 
+  fileSuccess getFilesStatus() const;
 private:
   std::unique_ptr<tinyxml2::XMLDocument> _doc;
   std::string _filePath;

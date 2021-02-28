@@ -58,7 +58,6 @@ void fileHandler::read()
       case dataType::UNKNOWN:
       {
           _fileStatus = fileSuccess::fail;
-          std::__throw_invalid_argument("[FileHandler]: UnkownFileFormat");
           break;
       }
       }
@@ -87,6 +86,11 @@ double fileHandler::getExtractionSize() const
 void fileHandler::setExtractionSize(double value)
 {
     extractionSize = value;
+}
+
+fileHandler::fileSuccess fileHandler::getFilesStatus() const
+{
+    return _fileStatus;
 }
 
 void fileHandler::readGPX()

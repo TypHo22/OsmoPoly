@@ -2,7 +2,7 @@
 #include "hull.h"
 #include "../geodesic/geodesic.h"
 ///thrid party
-#include <sciplot/sciplot.hpp>
+//#include <sciplot/sciplot.hpp>
 ///STL
 #include <algorithm>    // std::reverse
 
@@ -93,7 +93,7 @@ void hull::calculateHull()
 void hull::visualize()
 {
   _mut.lock();
-  using namespace sciplot;
+  //using namespace sciplot;
 
   std::vector<double> xHull(_hull.size());
   std::vector<double> yHull(_hull.size());
@@ -129,7 +129,7 @@ void hull::visualize()
 
   //create plots
   //geoPlot
-
+/*
   sciplot::Plot geoPlot;
   geoPlot.drawCurve(geoxPath,geoyPath);
   geoPlot.drawCurve(geoxPath,geoyPath);
@@ -144,6 +144,7 @@ void hull::visualize()
   xyPlot.xlabel("x");
   xyPlot.ylabel("y");
   xyPlot.show();
+  */
   _mut.unlock();
 }
 

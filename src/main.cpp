@@ -33,23 +33,44 @@ bool checkNum(std::string toCheck)
   return true;
 }
 
+void checkInputArgSize(std::vector<std::string>& allArgs)
+{
+    size_t checkSum = (allArgs.size() - 1) % 2;
+    if(checkSum != 0)
+    {
+        std::cerr << "[ERROR] Not enough input parameters"<<std::endl;
+        throw std::runtime_error("");
+    }
+}
+
 int main(int arc, char *argv[])
 {
   std::vector<std::string> allArgs(argv, argv + arc);
   std::vector<std::unique_ptr<fileHandler>> files;
 
-  if(allArgs.size() < 2)
+  try
   {
-      std::cerr << "[ERROR] Not enough input parameters"<<std::endl;
-      throw std::runtime_error("");
+    checkInputArgSize(allArgs);
   }
-
+  catch (std::runtime_error)
+  {
+      return -1;
+  }
 
   for(size_t cFile = 1; cFile < arc; cFile++)
   {
      std::unique_ptr<fileHandler>f(new fileHandler(allArgs[cFile]));
      f.get()->read();
-     checkNum(allArgs[cFile + 1]);
+
+     try
+     {
+         checkNum(allArgs[cFile + 1]);
+     }
+     catch (std::runtime_error)
+     {
+         return -1;
+     }
+
      const double thickness = std::stod(allArgs[cFile + 1]);
      f.get()->setExtractionSize(thickness);
 
@@ -63,7 +84,8 @@ int main(int arc, char *argv[])
   //process gpxHulls
   for(size_t b = 0; b < files.size();b++)
   {
-      if(files.at(b).get()->getDataType() == fileHandler::dataType::GPX)
+      if(files.at(b).get()->getDataType() == fileHandler::dataType::GPX &&
+              files.at(b).get()->getFilesStatus() == fileHandler::fileSuccess::success)
       {
         std::unique_ptr<hull>aHull (new hull(files[b].get()->getModelGPX()->getNodeHolder(),files[b].get()->getExtractionSize()));
         aHull.get()->calculateHull();

@@ -43,6 +43,7 @@ void modelGPX::toExtractionFile()
     myFile << "END" << std::endl;
     myFile << "END" << std::endl;
     myFile.close();
+    std::cout<<_fileName + " " + "successfully written into build directory of OsmoPoly" << std::endl;
   }
 
   _mut.unlock();
